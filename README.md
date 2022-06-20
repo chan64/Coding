@@ -29,10 +29,10 @@ CREATE SCHEMA IF NOT EXISTS leetcode;
 
 Server related commands
 ```bash
-<h2>Start</h2> DB
+# Start DB
 postgres -D /usr/local/var/postgres 
 
-<h2>Connect</h2> to DB
+# Connect to DB
 psql -d postgres -U postgres
 ```
 
@@ -45,7 +45,7 @@ Queries to check tables
 \dn 
 
 -- Decribe table
-\d+ leetcode.world
+\d+ leetcode.*
 ```
 
 <h5>MySQL</h5>
